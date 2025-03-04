@@ -1,4 +1,4 @@
-package B4.Rectangle;
+package B4_object.Rectangle;
 
 public class Rectangle {
     double width, height;

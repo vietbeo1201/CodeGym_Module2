@@ -1,5 +1,4 @@
-package B4.QuadraticEquation;
-import java.util.Scanner;
+package B4_object.QuadraticEquation;
 
 public class QuadraticEquation {
     double a, b, c;

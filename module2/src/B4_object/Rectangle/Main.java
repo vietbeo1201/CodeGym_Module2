@@ -1,4 +1,4 @@
-package B4.Rectangle;
+package B4_object.Rectangle;
 import java.util.Scanner;
 
 public class Main {

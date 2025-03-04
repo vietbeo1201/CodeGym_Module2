@@ -1,4 +1,4 @@
-package B4.Fan;
+package B4_object.Fan;
 
 public class Fan {
     public static final int SLOW = 1;

@@ -1,4 +1,4 @@
-package B4.QuadraticEquation;
+package B4_object.QuadraticEquation;
 import java.util.Scanner;
 
 public class Main {

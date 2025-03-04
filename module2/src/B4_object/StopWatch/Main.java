@@ -1,4 +1,4 @@
-package B4.StopWatch;
+package B4_object.StopWatch;
 
 public class Main {
     public static void main(String[] args) {

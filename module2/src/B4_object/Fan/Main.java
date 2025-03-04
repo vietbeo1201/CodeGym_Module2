@@ -1,4 +1,4 @@
-package B4.Fan;
+package B4_object.Fan;
 
 public class Main {
     public static void main(String[] args) {
