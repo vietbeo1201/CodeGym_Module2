@@ -1,4 +1,4 @@
-package B7_abtract.InterfaceComparableForGeometry.Shape;
+package B7_abtract.InterfaceComparableForGeometry;
 
 public class RectangleTest {
     public static void main(String[] args) {

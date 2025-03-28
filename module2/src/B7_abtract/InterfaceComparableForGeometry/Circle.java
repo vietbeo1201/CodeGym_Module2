@@ -1,4 +1,4 @@
-package B7_abtract.InterfaceComparableForGeometry.Shape;
+package B7_abtract.InterfaceComparableForGeometry;
 
 public class Circle extends Shape {
     private double radius = 1;

@@ -1,4 +1,4 @@
-package B7_abtract.Animal;
+package B7_abtract.AnimalInterfaceEdible.Animal;
 
 public abstract class Animal {
     public abstract String Makesound();

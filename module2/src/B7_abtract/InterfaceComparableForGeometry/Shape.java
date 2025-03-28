@@ -1,4 +1,4 @@
-package B7_abtract.InterfaceComparableForGeometry.Shape;
+package B7_abtract.InterfaceComparableForGeometry;
 
 public class Shape {
     private String color = "green";

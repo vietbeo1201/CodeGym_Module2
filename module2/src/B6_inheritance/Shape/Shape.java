@@ -1,4 +1,4 @@
-package B6_inheritance;
+package B6_inheritance.Shape;
 
 public class Shape {
     private String color = "green";
@@ -25,5 +25,11 @@ public class Shape {
         this.filled = filled;
     }
 
-    @o
+    @Override
+    public String toString() {
+        return "A shape with color of "
+                +getColor()
+                +" and "
+                + (getFilled()?"filled":"not filled");
+    }
 }
