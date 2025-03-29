@@ -2,13 +2,13 @@ package src;
 public class information {
     private String name = "Unknown Name";
     private String gender = "Unknown Gender";
-    private int phoneNumber;
+    private String phoneNumber;
     private String group = "Unknown Group";
     private String address = "Unknown Address";
     private String dateOfBirth;
     private String email = "Unknown Email";
 
-    public information(String name, String gender, int phoneNumber, String group, String address, String dateOfBirth, String email) {
+    public information(String name, String gender, String phoneNumber, String group, String address, String dateOfBirth, String email) {
         this.name = name;
         this.gender = gender;
         this.phoneNumber = phoneNumber;
@@ -31,10 +31,10 @@ public class information {
     public void setGender(String gender){
         this.gender = gender;
     }
-    public int getPhoneNumber(){
+    public String  getPhoneNumber(){
         return phoneNumber;
     }
-    public void setPhoneNumber(int phoneNumber){
+    public void setPhoneNumber(String  phoneNumber){
         this.phoneNumber = phoneNumber;
     }
     public String getGroup(){
@@ -60,6 +60,17 @@ public class information {
     }
     public void setEmail(String email){
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return   name
+                + ", " + gender
+                + ", " + phoneNumber
+                + ", " + group
+                + ", " + address
+                + ", " + dateOfBirth
+                + ", " + email;
     }
 }
 

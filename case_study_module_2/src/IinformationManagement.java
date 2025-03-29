@@ -1,5 +1,7 @@
 package src;
 
+import java.util.List;
+
 public interface IinformationManagement {
     void display();
     void addInformation();
